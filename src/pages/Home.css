@@ -1,0 +1,434 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+/* nav */
+nav{
+    text-align: right;
+    background-color: #05445E;
+}
+li{
+    display: inline-block;
+    padding:20px;
+    list-style-type: none;
+}
+.a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.a:hover{
+    color: #75E6DA;
+}
+/* nav end */
+    #rajasthan{
+    height: 60%;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1608080792986-d039bc567c32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3308&q=80");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 10px;
+}
+
+#logo{
+    margin-top: -700px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+#local-yatri-text{
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-size: 100px;
+    text-align: center;
+}
+#local-yatri-rajasthan-text{
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-size: 65px;
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 400px;
+}
+.center-alligned-heading{
+    color: #189AB4;
+    font-family: 'Dancing Script', cursive;
+    font-size: 55px;
+    text-align: center;
+    text-decoration: underline;
+}
+.center-alligned-text{
+    color: #189AB4;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+.popular-cities{
+    height: 300px;
+    width: 300px;
+    border-radius: 20%;
+}
+#popular-cities{
+    margin-left: 200px;
+}
+button{
+    height: 40px;
+    width: 120px;
+    background-color: #D4F1F4;
+    border-radius: 13px;
+    opacity: 0.9;
+    border: 0px;
+    box-shadow: 7px 7px 5px grey;
+}
+.button-text{
+    color: #189AB4;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Calligraffitti', cursive;
+}
+button:hover .button-text{
+    color: #75E6DA;
+}
+.city-images{
+    height: 370px;
+    width: 570px;
+    box-shadow: 7px 7px 5px grey;
+    border-radius: 20px;
+}
+#jaipur-text{
+    margin-top: -350px;
+    margin-left: 800px;
+    margin-right: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+#udaipur-text{
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+#jodhpur-text{
+    margin-top: -340px;
+    margin-left: 800px;
+    margin-right: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+#rajasthan-stories{
+    margin-left: 50px;
+    height: 700px;
+    width: 900px;
+    border-radius: 40px;
+    filter: brightness(75%);
+}
+#blackbuck{
+    height: 370px;
+    width: 280px;
+    border-radius: 40%;
+    margin-left: 80px
+}
+#hot-air-balloon{
+    height: 370px;
+    width: 280px;
+    border-radius: 40%;
+    margin-left: 50px
+}
+#caption-wildlife{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-left: 185px;
+}
+#caption-adventure{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-left: 145px;
+}
+#rajasthan-stories-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    color: #FFFFFF;
+    margin-top: -140px;
+    margin-left: 80px;
+    position: absolute;
+    
+}
+#wildlife-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    margin-left: 1100px;
+    margin-top: -260px;
+    color: rgb(85, 84, 84);
+}
+#adventure-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    margin-left: 1400px;
+    margin-top: -240px;
+    color: rgb(85, 84, 84);   
+}
+#featured{
+    margin-top: 150px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(242, 242, 242);
+}
+#as-featured-in{
+    height: 300px;
+    width: 300px;
+    margin-top: -200px;
+    margin-left: 200px;
+    position: absolute;
+}
+#travel-blog{
+    height: 300px;
+    width: 300px;
+    margin-left: 500px;
+    margin-top: -200px;
+    position: absolute;
+}
+#planetour{
+    height: 300px;
+    width: 300px;
+    margin-left: 700px;
+    margin-top: -200px;
+    position: absolute;
+}
+#world-travel{
+    height: 300px;
+    width: 300px;
+    margin-left: 900px;
+    margin-top: -200px;
+    position: absolute;
+}
+#skycloud{
+    height: 300px;
+    width: 300px;
+    margin-left: 1100px;
+    margin-top: -200px;
+    position: absolute;
+}
+/* food */
+#rajasthan-video{
+    margin-left: 50px;
+    width: 53%;
+    border-radius: 40px;
+    background-size: cover;
+    filter: brightness(80%);
+}
+#sweets{
+    height: 370px;
+    width: 280px;
+    border-radius: 40%;
+    margin-left: 80px
+}
+#drinks{
+    height: 370px;
+    width: 280px;
+    border-radius: 40%;
+    margin-left: 50px
+}
+#caption-sweets{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-left: 185px;
+}
+#caption-drinks{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-left: 145px;
+}
+#sweets-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: rgb(85, 84, 84);
+    margin-left: 90px;
+    /* margin-top: px; */
+}
+#drinks-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: rgb(85, 84, 84);
+    margin-left: 430px;
+    margin-top: -160px;
+}
+#video-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #FFFFFF;
+    position: absolute;
+    margin-left: 755px;
+    margin-top: -570px;
+}
+iframe{
+    margin-left: 200px;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: 75%;
+    background-color: #D4F1F4;
+}
+#footer-local-yatri-text{
+    font-family: 'Poppins', sans-serif;
+    color: #05445E;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    position: absolute;
+}
+#footer-rajasthan-text{
+    font-family: 'Poppins', sans-serif;
+    color: #05445E;
+    font-size: 20px;
+    margin-left: 130px;
+    margin-top: 85px;
+    position: absolute;
+}
+#footer-follow-us-text{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 25px;
+    margin-left: 58px;
+    margin-top: 150px;
+    position: absolute;
+}
+.footer-logos{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+#footer-logo-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 185px;
+    position: absolute;
+}
+#footer-subscribe-text{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 25px;
+    margin-left: 58px;
+    margin-top: 270px;
+    position: absolute;
+}
+#subscribe-button{
+    height: 50px;
+    width: 250px;
+    border-radius: 50px;
+    background-color: rgb(242, 242, 242);
+    border-color: rgb(85, 84, 84);
+    margin-left: 60px;
+    margin-top: 320px;
+    position: absolute;
+}
+
+::placeholder{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+input[type=email]{
+    color: #05445E;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+#submit-button{
+    height: 50px;
+    width: 70px;
+    border-radius: 50px;
+    background-color: #05445E;
+    border-color: rgb(85, 84, 84);
+    margin-left: 315px;
+    margin-top: 320px;
+    position: absolute;
+}
+input[type=submit]{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+#subscribe-button-tc{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(85, 84, 84);
+    font-size: 10px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 390px;
+}
+#footer-top-cities{
+    margin-left: 680px;
+    margin-top: 80px;
+    position: relative;
+}
+#footer-top-cities-text{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 700px;
+    margin-top: 50px;
+    position: relative;
+}
+.footer-items{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(85, 84, 84);
+    text-decoration: none;
+    position: relative;
+}
+#footer-travel-interests-text{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 1000px;
+    margin-top: 50px;
+    position: relative;
+}
+#footer-travel-interests{
+    margin-left: 983px;
+    margin-top: 80px;
+    position: absolute;
+}
+#footer-sites-text{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 1300px;
+    margin-top: 50px;
+    position: relative;
+}
+#footer-sites{
+    margin-left: 1280px;
+    margin-top: 80px;
+    position: absolute;
+}
+#footer-about-us-text{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 1300px;
+    margin-top: 355px;
+    position: absolute;
+}
+#footer-about-us{
+    margin-left: 1280px;
+    margin-top: 390px;
+    position: absolute;
+}
+/* copyright */
+#copyright{
+    width: 100%;
+    height: 100px;
+    background-color: #05445E;
+}
+#copyright-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #D4F1F4;
+    margin-top: -53px;
+    text-align: center;
+}

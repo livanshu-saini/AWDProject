@@ -1,0 +1,276 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(242,242,242);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.active{
+    color: #d64dbf;
+    text-decoration: underline;
+    font-weight: 900;
+
+}
+
+
+/* Navbar */
+.navbar{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 30px;
+}
+
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1589901164570-f9de6556e1c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2{
+    font-size: 4vmin;
+}
+
+.ctn{
+    padding: 8px 15px;
+    background: #05445E;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+.line{
+    width: 150px;
+    height: 4px;
+    background: #75E6DA;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: #189AB4;
+}
+
+
+
+
+#head1{
+    font-size: 3vmin;
+    color: turquoise;
+    margin-top: 25%;
+    position: absolute;
+    margin-left: 15%;
+}
+
+
+
+#head2{
+    font-size: 3vmin;
+    color: turquoise;
+    margin-top: 25%;
+    position: absolute;
+    margin-left: 67%;
+
+}
+
+#img1{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+}
+#img2{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    margin-left: 50%;
+    
+}
+#text1{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    margin-top: 30%;
+    text-align: center;
+    
+}
+#text2{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 50%;
+    text-align: center;
+}
+
+
+
+#img3{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    margin-top: 42%;
+}
+
+#img4{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 42%;
+}
+
+#text3{    
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    margin-top: 71%;
+    text-align: center;
+
+}
+
+#text4{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    margin-top: 71%;
+    margin-left: 50%;
+    text-align: center;
+
+}
+
+#head3{
+    font-size: 3vmin;
+    color: turquoise;
+    margin-top: 67%;
+    position: absolute;
+    margin-left: 15%;
+}
+
+#head4{ 
+    font-size: 3vmin;
+    color: turquoise;
+    margin-top: 67%;
+    position: absolute;
+    margin-left: 70%;
+
+}
+
+#img5{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    margin-top: 83%;
+
+}
+
+#img6{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 83%;
+
+}
+
+#text5{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    margin-top: 112%;
+    text-align: center;
+
+}
+
+#text6{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    margin-top: 112%;
+    margin-left: 50%;
+    text-align: center;
+
+}
+
+#head5{
+    font-size: 3vmin;
+    color: turquoise;
+    margin-top: 108%;
+    position: absolute;
+    margin-left: 16%;
+
+}
+
+#head6{
+    font-size: 3vmin;
+    color: turquoise;
+    margin-top: 108%;
+    position: absolute;
+    margin-left: 68%;
+
+}
+
+
+/* copyright */
+#copyright{
+    width: 100%;
+    height: 200px;
+    background-color: #05445E;
+    position: absolute;
+    margin-top: 130%;
+}
+#copyright-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #D4F1F4;
+    margin-left: 20%;
+    position: absolute;
+    margin-top: 135%;
+}
